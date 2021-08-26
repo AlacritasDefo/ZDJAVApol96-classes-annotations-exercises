@@ -18,5 +18,10 @@ public class App
 
         System.out.println(Color.WHITE.isPretty());
 
+        Pair<String, Person> pair1 = new Pair<>("Value1", new Person("Adam", "Adamski"));
+        Pair<Color, Integer> pair2 = new Pair<>(Color.WHITE, 20);
+
+        System.out.println(pair1);
+        System.out.println(pair2);
     }
 }
