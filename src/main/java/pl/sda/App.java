@@ -8,6 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Employee employee1 = new Employee("Jarosław", "Tusk","Spedycja");
+        Employee employee2 = new Employee("Miłosz", "Łada", "Magazyn");
+
+        System.out.println(employee1);
+        System.out.println(employee2);
     }
 }
