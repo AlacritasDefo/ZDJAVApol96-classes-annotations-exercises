@@ -1,5 +1,19 @@
 package pl.sda;
 
 public enum Color {
-    GREEN, RED, BLACK, WHITE, YELLOW
+    GREEN(true),
+    RED(true),
+    BLACK(false),
+    WHITE(true),
+    YELLOW(false);
+
+    private boolean isPretty;
+
+    Color(boolean isPretty) {
+        this.isPretty = isPretty;
+    }
+
+    public boolean isPretty() {
+        return isPretty;
+    }
 }
