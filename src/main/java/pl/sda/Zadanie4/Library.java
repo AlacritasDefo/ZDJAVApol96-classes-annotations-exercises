@@ -17,4 +17,11 @@ public class Library<T extends MediaCenter> {
                 .findAny();
     }
 
+    public Optional<T> mediaBorrowByNameAndType(String name, MediaCenterType type){
+        return mediaList.stream()
+                .filter(media-> media.getName().equals(name))
+                .filter(media-> media.getType()==type)
+                .findAny();
+    }
+
 }
