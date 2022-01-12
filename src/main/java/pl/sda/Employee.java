@@ -4,6 +4,7 @@ public class Employee {
     private Person person;
 
     class Department {
+
         String name;
 
         public Department(String name) {

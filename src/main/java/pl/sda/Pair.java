@@ -3,6 +3,7 @@ package pl.sda;
 import java.util.Objects;
 
 public class Pair<T, V> {
+
     private T key;
     private V value;
 

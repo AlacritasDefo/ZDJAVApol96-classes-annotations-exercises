@@ -1,6 +1,7 @@
 package pl.sda;
 
 public enum Color {
+
     GREEN(true),
     RED(true),
     BLACK(false),

@@ -6,6 +6,7 @@ import java.util.Objects;
 
 @PersonInfo(description = "Opis osoby")
 public class Person {
+
     private String firstName;
     private String lastName;
 

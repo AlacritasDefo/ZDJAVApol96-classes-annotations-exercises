@@ -3,6 +3,7 @@ package pl.sda.Zadanie2SDA;
 import java.util.Arrays;
 
 public class Main {
+
     public static void main(String[] args) {
        Integer[] t1 = {2,4,5,8,6,1,6,0,10,8};
 

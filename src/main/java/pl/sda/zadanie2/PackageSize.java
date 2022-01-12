@@ -10,6 +10,7 @@ public enum PackageSize {
         this.maxSize = maxSize;
     }
 
+
     public static PackageSize getPackageSize(int size){
         for (PackageSize packageSize:PackageSize.values()){
             if (size >= packageSize.minSize && size <= packageSize.maxSize){

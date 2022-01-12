@@ -5,5 +5,6 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 public @interface PersonInfo {
+
     String description();
 }
